@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 # scrapper
 gem 'mechanize'
+gem 'require_all'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

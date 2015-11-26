@@ -6,9 +6,9 @@ namespace :scraper do
   task :run => :environment do
     consoles = [
       '3ds',
-      'wii-u',
-      'ps4',
       'pc'
+      'ps4',
+      'wii-u',
     ]
 
     consoles.each do |console|

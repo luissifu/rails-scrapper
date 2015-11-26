@@ -15,6 +15,7 @@ gem 'devise'
 # scrapper
 gem 'mechanize'
 gem 'require_all'
+gem 'whenever'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

@@ -50,8 +50,6 @@ class GamefaqsScraper
 
       games << game
       last_game = game
-
-      break
     end
 
     games

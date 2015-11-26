@@ -1,0 +1,27 @@
+<h1>Listing games</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Console</th>
+      <th>Name</th>
+      <th>Release date</th>
+      <th>Region</th>
+      <th>Boxart</th>
+      <th>Tags</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @games.each do |game| %>
+      <tr>
+        <td><%= game.console %></td>
+        <td><%= game.name %></td>
+        <td><%= game.release_date %></td>
+        <td><%= game.region %></td>
+        <td><%= game.boxart %></td>
+        <td><%= game.tags %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

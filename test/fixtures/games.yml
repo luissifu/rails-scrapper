@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  release_date: 2015-11-26
+  region: MyString
+  boxart: MyString
+  tags: MyString
+
+two:
+  name: MyString
+  release_date: 2015-11-26
+  region: MyString
+  boxart: MyString
+  tags: MyString

@@ -40,21 +40,21 @@ class GamefaqsScraper
         region = last_game.region
       end
 
-      game = Game.new
+      game = ScrapedGame.new
+      game.console = console
       game.name = name
       game.region = region
       game.boxart = boxart
-      game.tags = tags
+      game.tags = tags.join(',')
       game.release_date = release_date
 
       games << game
       last_game = game
+
+      break
     end
 
-    puts games.count
-
     games
-
   end
 
   def get_boxart_n_tags(game_url)
